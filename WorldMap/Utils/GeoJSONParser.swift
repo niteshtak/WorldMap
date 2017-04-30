@@ -8,13 +8,13 @@
 
 import UIKit
 
-class GEOJSONParser {
+class GeoJSONParser {
     
-    static let sharedInstance = GEOJSONParser()
+    static let sharedInstance = GeoJSONParser()
     
     private init() {}
     
-    func parseGEOJSONFile(filename: String) -> [String: AnyObject]? {
+    func parseGeoJSONFile(filename: String) -> [String: AnyObject]? {
         let fileURL = Bundle.main.url(forResource: filename, withExtension: "geojson")
         guard let url = fileURL else {
             print("File not found")

@@ -11,9 +11,13 @@ import XCTest
 
 class WorldMapTests: XCTestCase {
     
+    var vc: WorldMapVC!
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        vc = storyboard.instantiateInitialViewController() as! WorldMapVC
     }
     
     override func tearDown() {
@@ -21,16 +25,28 @@ class WorldMapTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testParser() {
+        let validJson = GeoJSONParser.sharedInstance.parseGeoJSONFile(filename: "countries_small")
+        XCTAssert(validJson != nil)
+        
+        let invalidJson = GeoJSONParser.sharedInstance.parseGeoJSONFile(filename: "invalid_countries")
+        XCTAssert(invalidJson == nil)
+        
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testNumberOfPolygons() {
+        vc.configureUI()
+        XCTAssert(vc.polygons.count == 462)
+    }
+    
+    func testSetupScrollView() {
+        vc.setupScrollView()
+        XCTAssert(vc.scrollView != nil)
+    }
+    
+    func testSetupMapView() {
+        vc.configureUI()
+        XCTAssert(vc.mapView != nil)
     }
     
 }
