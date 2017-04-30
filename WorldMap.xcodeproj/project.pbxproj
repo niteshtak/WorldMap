@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A3976F781EB5B68000286F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F771EB5B68000286F62 /* AppDelegate.swift */; };
-		A3976F7A1EB5B68000286F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F791EB5B68000286F62 /* ViewController.swift */; };
 		A3976F7D1EB5B68000286F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3976F7B1EB5B68000286F62 /* Main.storyboard */; };
 		A3976F7F1EB5B68000286F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3976F7E1EB5B68000286F62 /* Assets.xcassets */; };
 		A3976F821EB5B68000286F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3976F801EB5B68000286F62 /* LaunchScreen.storyboard */; };
 		A3976F8D1EB5B68000286F62 /* WorldMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F8C1EB5B68000286F62 /* WorldMapTests.swift */; };
 		A3976F981EB5B68000286F62 /* WorldMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F971EB5B68000286F62 /* WorldMapUITests.swift */; };
+		A3976FA81EB5B87B00286F62 /* countries_small.geojson in Resources */ = {isa = PBXBuildFile; fileRef = A3976FA71EB5B87B00286F62 /* countries_small.geojson */; };
+		A3976FAA1EB5B8D300286F62 /* GEOJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976FA91EB5B8D300286F62 /* GEOJSONParser.swift */; };
+		A3976FAC1EB5B8EB00286F62 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976FAB1EB5B8EB00286F62 /* Extension.swift */; };
+		A3976FAF1EB5B9DF00286F62 /* WorldMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976FAE1EB5B9DF00286F62 /* WorldMapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		A3976F741EB5B68000286F62 /* WorldMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3976F771EB5B68000286F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3976F791EB5B68000286F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3976F7C1EB5B68000286F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3976F7E1EB5B68000286F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3976F811EB5B68000286F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		A3976F931EB5B68000286F62 /* WorldMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3976F971EB5B68000286F62 /* WorldMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapUITests.swift; sourceTree = "<group>"; };
 		A3976F991EB5B68000286F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3976FA71EB5B87B00286F62 /* countries_small.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = countries_small.geojson; path = resources/countries_small.geojson; sourceTree = "<group>"; };
+		A3976FA91EB5B8D300286F62 /* GEOJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GEOJSONParser.swift; path = Utils/GEOJSONParser.swift; sourceTree = "<group>"; };
+		A3976FAB1EB5B8EB00286F62 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A3976FAE1EB5B9DF00286F62 /* WorldMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorldMapVC.swift; path = ViewControllers/WorldMapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		A3976F761EB5B68000286F62 /* WorldMap */ = {
 			isa = PBXGroup;
 			children = (
+				A3976FAD1EB5B9CA00286F62 /* ViewControllers */,
+				A3976FA61EB5B86400286F62 /* resources */,
+				A3976FA51EB5B7C200286F62 /* Utils */,
 				A3976F771EB5B68000286F62 /* AppDelegate.swift */,
-				A3976F791EB5B68000286F62 /* ViewController.swift */,
 				A3976F7B1EB5B68000286F62 /* Main.storyboard */,
 				A3976F7E1EB5B68000286F62 /* Assets.xcassets */,
 				A3976F801EB5B68000286F62 /* LaunchScreen.storyboard */,
@@ -123,6 +131,31 @@
 				A3976F991EB5B68000286F62 /* Info.plist */,
 			);
 			path = WorldMapUITests;
+			sourceTree = "<group>";
+		};
+		A3976FA51EB5B7C200286F62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A3976FA91EB5B8D300286F62 /* GEOJSONParser.swift */,
+				A3976FAB1EB5B8EB00286F62 /* Extension.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A3976FA61EB5B86400286F62 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3976FA71EB5B87B00286F62 /* countries_small.geojson */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		A3976FAD1EB5B9CA00286F62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3976FAE1EB5B9DF00286F62 /* WorldMapVC.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +270,7 @@
 			files = (
 				A3976F821EB5B68000286F62 /* LaunchScreen.storyboard in Resources */,
 				A3976F7F1EB5B68000286F62 /* Assets.xcassets in Resources */,
+				A3976FA81EB5B87B00286F62 /* countries_small.geojson in Resources */,
 				A3976F7D1EB5B68000286F62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3976F7A1EB5B68000286F62 /* ViewController.swift in Sources */,
 				A3976F781EB5B68000286F62 /* AppDelegate.swift in Sources */,
+				A3976FAA1EB5B8D300286F62 /* GEOJSONParser.swift in Sources */,
+				A3976FAC1EB5B8EB00286F62 /* Extension.swift in Sources */,
+				A3976FAF1EB5B9DF00286F62 /* WorldMapVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
