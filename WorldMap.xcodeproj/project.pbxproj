@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3976F781EB5B68000286F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F771EB5B68000286F62 /* AppDelegate.swift */; };
+		A3976F7A1EB5B68000286F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F791EB5B68000286F62 /* ViewController.swift */; };
+		A3976F7D1EB5B68000286F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3976F7B1EB5B68000286F62 /* Main.storyboard */; };
+		A3976F7F1EB5B68000286F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3976F7E1EB5B68000286F62 /* Assets.xcassets */; };
+		A3976F821EB5B68000286F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3976F801EB5B68000286F62 /* LaunchScreen.storyboard */; };
+		A3976F8D1EB5B68000286F62 /* WorldMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F8C1EB5B68000286F62 /* WorldMapTests.swift */; };
+		A3976F981EB5B68000286F62 /* WorldMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3976F971EB5B68000286F62 /* WorldMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3976F891EB5B68000286F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3976F6C1EB5B68000286F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3976F731EB5B68000286F62;
+			remoteInfo = WorldMap;
+		};
+		A3976F941EB5B68000286F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3976F6C1EB5B68000286F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3976F731EB5B68000286F62;
+			remoteInfo = WorldMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3976F741EB5B68000286F62 /* WorldMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3976F771EB5B68000286F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3976F791EB5B68000286F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3976F7C1EB5B68000286F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3976F7E1EB5B68000286F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3976F811EB5B68000286F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3976F831EB5B68000286F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3976F881EB5B68000286F62 /* WorldMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3976F8C1EB5B68000286F62 /* WorldMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapTests.swift; sourceTree = "<group>"; };
+		A3976F8E1EB5B68000286F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3976F931EB5B68000286F62 /* WorldMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3976F971EB5B68000286F62 /* WorldMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapUITests.swift; sourceTree = "<group>"; };
+		A3976F991EB5B68000286F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3976F711EB5B68000286F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3976F851EB5B68000286F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3976F901EB5B68000286F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3976F6B1EB5B68000286F62 = {
+			isa = PBXGroup;
+			children = (
+				A3976F761EB5B68000286F62 /* WorldMap */,
+				A3976F8B1EB5B68000286F62 /* WorldMapTests */,
+				A3976F961EB5B68000286F62 /* WorldMapUITests */,
+				A3976F751EB5B68000286F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3976F751EB5B68000286F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3976F741EB5B68000286F62 /* WorldMap.app */,
+				A3976F881EB5B68000286F62 /* WorldMapTests.xctest */,
+				A3976F931EB5B68000286F62 /* WorldMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3976F761EB5B68000286F62 /* WorldMap */ = {
+			isa = PBXGroup;
+			children = (
+				A3976F771EB5B68000286F62 /* AppDelegate.swift */,
+				A3976F791EB5B68000286F62 /* ViewController.swift */,
+				A3976F7B1EB5B68000286F62 /* Main.storyboard */,
+				A3976F7E1EB5B68000286F62 /* Assets.xcassets */,
+				A3976F801EB5B68000286F62 /* LaunchScreen.storyboard */,
+				A3976F831EB5B68000286F62 /* Info.plist */,
+			);
+			path = WorldMap;
+			sourceTree = "<group>";
+		};
+		A3976F8B1EB5B68000286F62 /* WorldMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3976F8C1EB5B68000286F62 /* WorldMapTests.swift */,
+				A3976F8E1EB5B68000286F62 /* Info.plist */,
+			);
+			path = WorldMapTests;
+			sourceTree = "<group>";
+		};
+		A3976F961EB5B68000286F62 /* WorldMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3976F971EB5B68000286F62 /* WorldMapUITests.swift */,
+				A3976F991EB5B68000286F62 /* Info.plist */,
+			);
+			path = WorldMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3976F731EB5B68000286F62 /* WorldMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3976F9C1EB5B68000286F62 /* Build configuration list for PBXNativeTarget "WorldMap" */;
+			buildPhases = (
+				A3976F701EB5B68000286F62 /* Sources */,
+				A3976F711EB5B68000286F62 /* Frameworks */,
+				A3976F721EB5B68000286F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldMap;
+			productName = WorldMap;
+			productReference = A3976F741EB5B68000286F62 /* WorldMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3976F871EB5B68000286F62 /* WorldMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3976F9F1EB5B68000286F62 /* Build configuration list for PBXNativeTarget "WorldMapTests" */;
+			buildPhases = (
+				A3976F841EB5B68000286F62 /* Sources */,
+				A3976F851EB5B68000286F62 /* Frameworks */,
+				A3976F861EB5B68000286F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3976F8A1EB5B68000286F62 /* PBXTargetDependency */,
+			);
+			name = WorldMapTests;
+			productName = WorldMapTests;
+			productReference = A3976F881EB5B68000286F62 /* WorldMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3976F921EB5B68000286F62 /* WorldMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3976FA21EB5B68000286F62 /* Build configuration list for PBXNativeTarget "WorldMapUITests" */;
+			buildPhases = (
+				A3976F8F1EB5B68000286F62 /* Sources */,
+				A3976F901EB5B68000286F62 /* Frameworks */,
+				A3976F911EB5B68000286F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3976F951EB5B68000286F62 /* PBXTargetDependency */,
+			);
+			name = WorldMapUITests;
+			productName = WorldMapUITests;
+			productReference = A3976F931EB5B68000286F62 /* WorldMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3976F6C1EB5B68000286F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NiteshTak;
+				TargetAttributes = {
+					A3976F731EB5B68000286F62 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WY25JZ5T88;
+						ProvisioningStyle = Automatic;
+					};
+					A3976F871EB5B68000286F62 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WY25JZ5T88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3976F731EB5B68000286F62;
+					};
+					A3976F921EB5B68000286F62 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WY25JZ5T88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3976F731EB5B68000286F62;
+					};
+				};
+			};
+			buildConfigurationList = A3976F6F1EB5B68000286F62 /* Build configuration list for PBXProject "WorldMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3976F6B1EB5B68000286F62;
+			productRefGroup = A3976F751EB5B68000286F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3976F731EB5B68000286F62 /* WorldMap */,
+				A3976F871EB5B68000286F62 /* WorldMapTests */,
+				A3976F921EB5B68000286F62 /* WorldMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3976F721EB5B68000286F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3976F821EB5B68000286F62 /* LaunchScreen.storyboard in Resources */,
+				A3976F7F1EB5B68000286F62 /* Assets.xcassets in Resources */,
+				A3976F7D1EB5B68000286F62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3976F861EB5B68000286F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3976F911EB5B68000286F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3976F701EB5B68000286F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3976F7A1EB5B68000286F62 /* ViewController.swift in Sources */,
+				A3976F781EB5B68000286F62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3976F841EB5B68000286F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3976F8D1EB5B68000286F62 /* WorldMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3976F8F1EB5B68000286F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3976F981EB5B68000286F62 /* WorldMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3976F8A1EB5B68000286F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3976F731EB5B68000286F62 /* WorldMap */;
+			targetProxy = A3976F891EB5B68000286F62 /* PBXContainerItemProxy */;
+		};
+		A3976F951EB5B68000286F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3976F731EB5B68000286F62 /* WorldMap */;
+			targetProxy = A3976F941EB5B68000286F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3976F7B1EB5B68000286F62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3976F7C1EB5B68000286F62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3976F801EB5B68000286F62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3976F811EB5B68000286F62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3976F9A1EB5B68000286F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3976F9B1EB5B68000286F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3976F9D1EB5B68000286F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WY25JZ5T88;
+				INFOPLIST_FILE = WorldMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.worldmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3976F9E1EB5B68000286F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WY25JZ5T88;
+				INFOPLIST_FILE = WorldMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.worldmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3976FA01EB5B68000286F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WY25JZ5T88;
+				INFOPLIST_FILE = WorldMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.worldmap.WorldMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldMap.app/WorldMap";
+			};
+			name = Debug;
+		};
+		A3976FA11EB5B68000286F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WY25JZ5T88;
+				INFOPLIST_FILE = WorldMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.worldmap.WorldMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldMap.app/WorldMap";
+			};
+			name = Release;
+		};
+		A3976FA31EB5B68000286F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WY25JZ5T88;
+				INFOPLIST_FILE = WorldMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.worldmap.WorldMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WorldMap;
+			};
+			name = Debug;
+		};
+		A3976FA41EB5B68000286F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WY25JZ5T88;
+				INFOPLIST_FILE = WorldMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.worldmap.WorldMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WorldMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3976F6F1EB5B68000286F62 /* Build configuration list for PBXProject "WorldMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3976F9A1EB5B68000286F62 /* Debug */,
+				A3976F9B1EB5B68000286F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3976F9C1EB5B68000286F62 /* Build configuration list for PBXNativeTarget "WorldMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3976F9D1EB5B68000286F62 /* Debug */,
+				A3976F9E1EB5B68000286F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3976F9F1EB5B68000286F62 /* Build configuration list for PBXNativeTarget "WorldMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3976FA01EB5B68000286F62 /* Debug */,
+				A3976FA11EB5B68000286F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3976FA21EB5B68000286F62 /* Build configuration list for PBXNativeTarget "WorldMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3976FA31EB5B68000286F62 /* Debug */,
+				A3976FA41EB5B68000286F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3976F6C1EB5B68000286F62 /* Project object */;
+}
